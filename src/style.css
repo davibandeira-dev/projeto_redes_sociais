@@ -48,16 +48,21 @@ section#redes-sociais {
   text-align: right;
 }
 
+section > a{
+  box-sizing: border-box;
+}
+
 section > a > img {
   width: 50px;
   margin: 5px;
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-  transition: all 2s;
+  /* Usei o transition nas duas propriedades. */
+  transition: transform .3s, border 1s;
 }
 
 section > a > img:hover {
-  width: 60px;
-  box-shadow: 2px 2px 5px greenyellow;
-  transform: translate(-20%, 0%);
+  border: 3px solid rgba(255, 255, 255, 0.600);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
