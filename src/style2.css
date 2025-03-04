@@ -18,10 +18,15 @@ img{
 
 a{
   display: block;
+  margin-top: -5px;
   padding: 20px;
   font-weight: bolder;
   text-align: center;
   text-decoration: none;
   color: white;
+  background-color: rgb(171, 3, 3);
+}
+
+a:hover{
   background-color: red;
 }
